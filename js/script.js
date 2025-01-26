@@ -11,20 +11,27 @@ else {
 }
    
 }
+const header =document.getElementById('header');
+var scroll=100;
+window.addEventListener('scroll',() =>{
+    if(window.scrollY>scroll){
+        header.style.backgroundColor='#252629';
+    }
+    else {
+        header.style.backgroundColor='transparent';
+    
+    }
+    }
+);
 
-// تهيئة Swiper
+
 const swiper = new Swiper('.swiper', {
-    loop: true, // تكرار الـ slides
-    // pagination: {
-    //     el: '.swiper-pagination', // النقاط
-    //     clickable: true,
-    // },
+    loop: true, 
     navigation: {
-        nextEl: '.swiper-button-next', // زر التالي
-        prevEl: '.swiper-button-prev', // زر السابق
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev', 
     },
     on: {
-        // تغيير الخلفية عند تغيير الـ slide
         slideChange: function () {
             const heroSection = document.querySelector('.hero');
             const activeSlide = this.slides[this.activeIndex];
@@ -38,7 +45,7 @@ const swiper = new Swiper('.swiper', {
             heroSection.style.backgroundImage = background;
         },
     },
-    effect: 'slide', // تأثير التلاشي
+    effect: 'slide', 
   
     speed: 1000, 
     autoplay: {
