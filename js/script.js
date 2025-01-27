@@ -53,3 +53,38 @@ const swiper = new Swiper('.swiper', {
         disableOnInteraction: false, 
     },
 });
+
+
+
+const swiper2 = new Swiper('.swiper-2', {
+    loop: true, 
+    slidesPerView: 5, 
+    spaceBetween: 20,
+    centeredSlides: true, 
+        pagination: {
+        el: '.swiper-2-pagination', 
+        clickable: true, 
+    },
+  
+    breakpoints: {
+        1200: {
+            slidesPerView: 5, 
+        },
+        992: {
+            slidesPerView: 4, 
+        },
+        768: {
+            slidesPerView: 3, 
+        },
+        576: {
+            slidesPerView: 2, 
+        },
+        480: {
+            slidesPerView: 1,
+        },
+    },
+    autoplay: {
+        delay: 3000, 
+        disableOnInteraction: false, 
+    },
+});
