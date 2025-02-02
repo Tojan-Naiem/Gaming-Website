@@ -1,7 +1,9 @@
 
-![Black and White Fun Stickerbomb Physical Sale Black Friday Banner](https://github.com/user-attachments/assets/bedd92f3-c91e-4abe-aab8-37976c0b407f)
+![Black and White Fun Stickerbomb Physical Sale Black Friday Banner (1)](https://github.com/user-attachments/assets/8ce1ff97-fca6-4652-bebc-b9eafcabcf05)
 
 # **Web Development Project Requirements**
+
+By: CSE Clup - Kadoori
 
 ## **Requirements**
 
