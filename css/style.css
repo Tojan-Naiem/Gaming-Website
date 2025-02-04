@@ -797,6 +797,70 @@ background-color: red;}
 /* End Download Section */
 
 
+
+/* Start Payment Method Section */
+.payment-method{
+    background-color: var(--bg-dark-1);
+    padding: 100px 120px;
+    color: white;
+    position: relative;
+}
+.payment-method-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px;
+    position: relative;
+}
+.payment-method-container  .title{
+    font-family: var(--body-font);
+    letter-spacing: 1px;
+    border: 1px solid var(--body-font-color);
+    width: 180px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.payment-method-container h1{
+    font-size: 50px;
+    line-height: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: var(--title-font);
+    background: linear-gradient(0deg, #888888 0%, #ffffff 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.payment-method-cards{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.payment-method-cards img{
+    width: 80px;
+}
+.pay-card{
+    width: 90px;
+    background-color: var(--bg-dark-2);
+    border-radius: 5px;
+}
+
+/* End Payment Method Section */
+
+
+/* Start Footer  */
+
+footer{
+    background-color: var(--bg-dark-2);
+    height: 400px;
+}
+
+
+
+/* End Footer */
 @media screen and (max-width:900px) {
     nav .navbar-menu ul{
 
@@ -874,10 +938,9 @@ display: none;
     font-size: 12px;
 }
 .collection-container .view{
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     top: 0px;
-    right: 0;
 }
+
 
 }
 
