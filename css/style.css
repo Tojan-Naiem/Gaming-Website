@@ -734,6 +734,67 @@ background-color: red;}
 
 /* End Collection Game Section */
 
+/* Start Download Section */
+
+.download{
+    background-color: var(--bg-dark-1);
+    padding: 100px 120px;
+    color: white;
+    position: relative;
+
+}
+.download .download-container{
+    height: 450px;
+    background: url('../images/bg-download.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    position: relative;
+}
+.download-content{
+    width: 60%;
+}
+#imgMan{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.download-content  .title{
+    font-family: var(--body-font);
+    letter-spacing: 1px;
+    border: 1px solid var(--body-font-color);
+    width: 180px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.download-content h1{
+    font-size: 50px;
+    line-height: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: var(--title-font);
+    background: linear-gradient(0deg, #888888 0%, #ffffff 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download-content  p{
+    font-size: 14px;
+    color: var(--dark-body-font-color);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: var(--body-font);
+}
+
+
+/* End Download Section */
 
 
 @media screen and (max-width:900px) {
@@ -797,7 +858,27 @@ display: none;
     }
     .game-cards{
         grid-template-columns: 1fr;
+
     }
+    #imgMan{
+        display: none;
+    }
+    .download-content {
+    width: 100%;
+
+}
+.download-content h1{
+    font-size: 40px;
+}
+.download-content p{
+    font-size: 12px;
+}
+.collection-container .view{
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    top: 0px;
+    right: 0;
+}
+
 }
 
 
