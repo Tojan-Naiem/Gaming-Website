@@ -4,10 +4,10 @@
 🚀 A simple and interactive gaming website built using HTML, CSS, and JavaScript. It features a clean design and smooth user experience for gaming enthusiasts.
 
 <h1>🔥 Features</h1>
-✅ Responsive and modern UI
-✅ Smooth animations and effects
-✅ Interactive elements using JavaScript
-✅ Easy to navigate
+✅ Responsive and modern UI<br>
+✅ Smooth animations and effects<br>
+✅ Interactive elements using JavaScript<br>
+✅ Easy to navigate<br>
 
 <h1>🛠 Technologies Used</h1>
 <ul>
