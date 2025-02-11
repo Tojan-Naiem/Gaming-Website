@@ -19,6 +19,10 @@
 
 
 <h1>📌 Future Improvements</h1>
-Add more interactive game elements
-Implement a leaderboard system
-Improve mobile responsiveness
+<ul>
+  <li>Add more interactive game elements</li>
+  <li>Implement a leaderboard system</li>
+  <li>Improve mobile responsiveness</li>
+  
+</ul>
+
